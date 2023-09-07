@@ -7,11 +7,9 @@ int max(int x, int y)
 int main()
 {
     int a, b, sum;
-    scanf("%d,%d",&a, &b);
+    scanf("%d,%d", &a, &b);
     sum = a + b;
     printf("sum is:%d\n", sum);
     printf("the bigger number is:%d\n", max(a, b));
     return 0;
-    
-}  
-
+}
